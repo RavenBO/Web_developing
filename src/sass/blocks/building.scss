@@ -1,0 +1,78 @@
+.building {
+    min-height: 880px;
+    &__inner {
+        padding: 145px 0;
+    }
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        margin: 100px 0 0;
+        .list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            margin-top: 35px;
+            &__title {
+                position: relative;
+                font-family: "Open Sans";
+                font-weight: 400;
+                font-size: 24px;
+                letter-spacing: 1px;
+                color: #1d1d1d;
+                margin: 0;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    bottom: -5px;
+                    height: 2px;
+                    width: 370px;
+                    background-color: #1d1d1d;
+                }
+            }
+            &__descr {
+                margin: 0;
+                position: absolute;
+                left: 400px;
+                font-family: "Open Sans";
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 24px;
+                color: #373a39;
+                max-width: 770px;
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__item-img {
+        margin: 0 20px;
+    }
+    &__item-text {
+        max-width: 280px;
+    }
+    &__item-title {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 4.2875px;
+        color: #333333;
+    }
+    &__item-descr {
+        margin-top: 15px;
+        font-family: "Open Sans";
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+    }
+}

@@ -1,0 +1,74 @@
+.carousel {
+    position: relative;
+    background-color: #f6f8fa;
+    .arrow-left, .arrow-right {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .arrow-left {
+        left: 30px;
+    }
+    .arrow-right {
+        left: auto;
+        right: 30px;
+    }
+    &__wrapper {
+        padding: 115px 0px;
+    }
+    &__item {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 40px;
+        color: #242121;
+        margin: 0;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__descr {
+        max-width: 680px;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+        margin: 35px 0 0;
+    }
+    &__img {
+        max-width: 425px;
+    }
+    .slick-list {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    .slick-arrow {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        width: 35px;
+        height: 35px;
+        img {
+            width: 100%;
+        }
+    }
+    .slick-prev {
+        left: 30px;
+    }
+    .slick-next {
+        left: auto;
+        right: 30px;
+    }
+}

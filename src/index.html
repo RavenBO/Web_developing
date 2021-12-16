@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-програмування</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header id="top" class="header">
+        <div class="header__inner">
+            <a href="#top" class="logo">
+                <img src="icon/logo.svg" alt="logo">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">ГОЛОВНА</a></li>
+                    <li class="menu__list-item"><a href="about.html" class="menu__list-link">ПРО НАС</a></li>
+                    <li class="menu__list-item"><a href="building.html" class="menu__list-link">СТВОРЕННЯ</a></li>
+                    <li class="menu__list-item"><a href="history.html" class="menu__list-link">IСТОРIЯ</a></li>
+                    <li class="menu__list-item"><a href="framework.html" class="menu__list-link">ФРЕЙМВОРКИ</a></li>
+                    <li class="menu__list-item"><a href="feed.html" class="menu__list-link">ЗВ`ЯЗОК</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="promo">
+        <h1 class="promo__title">WEB-програмування</h1>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <h2 class="title">Про нас</h2>
+                <p class="about__descr">
+                    Веб-програмування — галузь веброзробки і різновид дизайну, в завдання якої входить проєктування
+                    користувальницьких вебінтерфейсів для сайтів або вебдодатків. Вебдизайнери проєктують логічну
+                    структуру вебсторінок, продумують найбільш зручні рішення подачі інформації, а також займаються
+                    художнім оформленням вебпроєкту. В результаті перетину двох галузей людської діяльності грамотний
+                    вебдизайнер повинен бути знайомий з останніми вебтехнологіями і володіти відповідними художніми
+                    якостями.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="building">
+        <div class="container">
+            <div class="building__inner">
+                <h2 class="title">Як будуються веб-сторінки</h2>
+                <ul class="building__list">
+                    <li class="list-item">
+                        <h3 class="list-item__title">HTML</h3>
+                        <p class="list-item__descr">Веб-сторінка будується на основі мови гіпертекстової розмітки.
+                            Офіційна назва мови HTML (Hyper Text Markup Language).</p>
+                    </li>
+                    <li class="list-item">
+                        <h3 class="list-item__title">CSS</h3>
+                        <p class="list-item__descr">Для відображення вмісту на веб-сторінці створені та служать каскадні
+                            таблиці стилів, інакше CSS.
+                        </p>
+                    </li>
+                    <li class="list-item">
+                        <h3 class="list-item__title">JAVASCRIPT</h3>
+                        <p class="list-item__descr">У створенні динамічних сторінок на допомогу розробникам «приходять»
+                            мови скриптів. Найпопулярніша мова JavaScript.
+                        </p>
+                    </li>
+                </ul>
+
+                <div class="building__wrapper">
+                    <div class="building__item">
+                        <img class="building__item-img" src="icon/html-icon.svg" alt="html icon">
+                        <div class="building__item-text">
+                            <div class="building__item-title">HTML</div>
+                            <div class="building__item-descr">Мова гіпертекстової розмітки сторінки. Вона
+                                використовується для того, щоб дати браузеру зрозуміти, як потрібно відображати
+                                завантажений сайт.</div>
+                        </div>
+                    </div>
+                    <div class="building__item">
+                        <img class="building__item-img" src="icon/css-icon.svg" alt="css icon">
+                        <div class="building__item-text">
+                            <div class="building__item-title">CSS</div>
+                            <div class="building__item-descr">Формальна мова опису зовнішнього вигляду веб-сторінки,
+                                написаного з використанням мови розмітки (найчастіше HTML або XHTML).</div>
+                        </div>
+                    </div>
+                    <div class="building__item">
+                        <img class="building__item-img" src="icon/javascript-icon.svg" alt="javascript icon">
+                        <div class="building__item-text">
+                            <div class="building__item-title">JAVASCRIPT</div>
+                            <div class="building__item-descr">Мультипарадигменна мова програмування. Підтримує
+                                об'єктно-орієнтований, імперативний та функціональний стилі. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <img src="img/hist_bgr.png" alt="site history image" class="history__img">
+        <div class="history__content">
+            <h2 class="title">Історія сайтів</h2>
+            <p class="history__descr">
+                Мова гіпертекстової розмітки HTML була розроблена британським ученим Тімом Бернерсом-Лі приблизно в
+                1986-1991 роках у стінах ЦЕРНу в Женеві у Швейцарії. HTML створювався як мова для обміну науковою та
+                технічною документацією, придатний для використання людьми, які не є фахівцями в галузі верстки.
+            </p>
+            <p class="history__descr">
+                Перший у світі сайт з'явився 6 серпня 1991 року. Його автор, Тім Бернерс-Лі, опублікував на ньому опис
+                нової технології World Wide Web, заснованої на протоколі передачі даних HTTP, системі адресації URI та
+                мові гіпертекстової розмітки HTML. Також на сайті були описані принципи встановлення та роботи серверів
+                та браузерів. Сайт став і першим у світі інтернет-каталогом, тому що пізніше Тім Бернерс-Лі розмістив на
+                ньому список посилань на інші сайти.
+            </p>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="carousel__wrapper">
+            <div class="carousel__item">
+                <h3 class="carousel__title">React</h3>
+                <div class="carousel__content">
+                    <p class="carousel__descr">
+                        В даний час лідером в галузі інфраструктури JavaScript UI є React. Спочатку розробники Facebook
+                        почали
+                        працювати над цим, щоби спростити свою роботу. Програма під назвою Facebook Ads зростала дуже
+                        швидко, що
+                        означало складне управління та підтримку. В результаті команда почала створювати структуру, яка
+                        допоможе
+                        їм ефективно. У них був ранній прототип до 2011 року, а через два роки, структура була з
+                        відкритим
+                        вихідним кодом і доступна для громадськості. В даний час його використовують багато
+                        бізнес-гіганти:
+                        AirBNB, PayPal, Netflix і т.д.
+                        <br><br>
+                        React базується на компоненті багаторазового використання. Простіше кажучи, це блоки коду, які
+                        можна
+                        класифікувати як класи чи функції. Кожен компонент представляє певну частину сторінки, таку як
+                        логотип,
+                        кнопку або поле введення. Параметри, що використовуються ними, називаються реквізитами, що
+                        означає
+                        властивості. Говорячи про синтакс, більшість розробників сходяться на думці, що React легко
+                        освоїти,
+                        коли ви вже знаєте JavaScript.
+                        <br><br>
+                        React використовує JSX, синтаксис XML, який поєднує JavaScript і HTML. Це не шаблон JavaScript;
+                        це
+                        повний JavaScript. Спочатку деякі нові розробники можуть знайти JSX трохи заплутаним. Однак,
+                        попрацювавши з ним якийсь час, ви зрозумієте, наскільки це корисно. Це бібліотека, на яку ви
+                        повинні
+                        звернути увагу, якщо ви займаєтесь інтерфейсною веб-розробкою.
+                    </p>
+                    <img src="icon/react-icon.svg" alt="react logo" class="carousel__img">
+                </div>
+            </div>
+            <div class="carousel__item">
+                <h3 class="carousel__title">Angular</h3>
+                <div class="carousel__content">
+                    <p class="carousel__descr">
+                        Angular - одне з найпотужніших середовищ JavaScript. Google використовує цю платформу для
+                        розробки
+                        односторінкової програми (SPA). Це середовище розробки відоме насамперед тому, що воно надає
+                        розробникам
+                        найкращі умови для об'єднання JavaScript з HTML та CSS. Понад півмільйона сайтів, таких як
+                        google.com,
+                        youtube.com тощо, використовують Angular.
+                        <br><br>
+                        Це також переважне середовище інтерфейсу JavaScript для розробників додатків Google. Angular має
+                        компонентну структуру, як і React. Ви можете маніпулювати, вкладати та використовувати їх за
+                        необхідності. Вам потрібно буде використовувати TypeScript, щоб написати програму в Angular. Це
+                        розширений набір JavaScript, який використовує той же синтаксис, але також підтримує статичну
+                        типізацію
+                        та класи. У TypeScript ви отримуєте модифікатори доступу, перерахування, узагальнення, гібридні
+                        типи та
+                        багато іншого. Простіше кажучи, Angular це фантастична платформа, на яку можна поглянути, якщо
+                        ви новий
+                        розробник.
+                    </p>
+                    <img src="icon/angular-icon.svg" alt="angular logo" class="carousel__img">
+                </div>
+            </div>
+            <div class="carousel__item">
+                <h3 class="carousel__title">Vue.js</h3>
+                <div class="carousel__content">
+                    <p class="carousel__descr">
+                        Vue це JavaScript-фреймворк з відкритим вихідним кодом для створення креативного інтерфейсу.
+                        Інтеграція
+                        з Vue у проектах, які використовують інші бібліотеки JavaScript, спрощена, оскільки вона
+                        розроблена для
+                        адаптації. Більше 36 000 веб-сайтів зараз використовують Vue. Такі компанії, як Stackoverflow,
+                        PlayStation і т.д., покладаються на Vue для своїх сайтів інтерфейсу користувача.
+                        <br><br>
+                        Vue.js також досить простий у освоєнні: все, що потрібно, це JavaScript і HTML. Іншою сильною
+                        стороною
+                        Vue.js є його інтерфейс командного рядка (CLI). Це базовий інструмент, який прискорює розробку,
+                        пропонуючи безліч плагінів, пресетів, миттєвого прототипування та інтерактивного інструменту
+                        розробки
+                        проектів. Деякі з його функцій включають компоненти, шаблони, переходи та двостороннє
+                        зв'язування даних,
+                        а також фокус реактивності. Реактивність виникає при зміні або оновленні будь-якого з об'єктів
+                        JavaScript у Vue. Vue.js використовує те, що називається Shadow DOM, що робить рендеринг
+                        сторінки
+                        швидким.
+                    </p>
+                    <img src="icon/vuejs-icon.svg" alt="vuejs logo" class="carousel__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feed">
+        <div class="feed__wrapper">
+            <h2 class="title">Зв'язок</h2>
+            <form action="#" class="feed__form">
+                <input type="text" name="name" placeholder="Ваше ім'я" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea type="textarea" name="message" placeholder="Ваше повідомлення" required></textarea>
+                <button class="feed__button">Відправити</button>
+            </form>
+        </div>
+        <img src="img/feed_bgr.jpg" alt="code image" class="feed__img">
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <a href="#top" class="logo">
+                <img src="icon/logo.svg" alt="logo">
+            </a>
+            <hr class="footer__line">
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">FACEBOOK</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">TWITTER</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">GOOGLE+</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">BEHANCE</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">DRIBBLE</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__item-link">INSTAGRAM</a>
+                </li>
+            </ul>
+            <address class="footer__address">
+                вулиця Центральна, 27, Слов'янськ, Донецька область, 84100
+            </address>
+            <a class="footer__phone" href="tel:0626228939">0626228939</a>
+            <a class="footer__email" href="mailto:Sknau@ukr.net">Sknau@ukr.net</a>
+            <a href="#top" class="uppage">
+                <img src="icon/pageup.png" alt="arrow up">
+            </a>
+        </div>
+        <div class="footer__subfooter">
+            <div class="footer__subfooter-text">@2021 Рибкін Даніл, група 1РПЗ18</div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

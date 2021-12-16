@@ -1,0 +1,23 @@
+.history {
+    background-color: #f6f8fa;
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+    &__img {
+        height: 840px;
+    }
+    &__content {
+        padding: 215px 135px;
+    }
+    &__descr {
+        font-family: "Open Sans";
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373a39;
+        &:first-of-type {
+            margin-top: 110px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.footer {
+    min-height: 650px;
+    background-color: #373a39;
+    padding: 170px 0 0;
+    box-sizing: border-box;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__line {
+        margin-top: 25px;
+        height: 2px;
+        width: 150px;
+        background-color: #fcbb08;
+        border: none;
+    }
+    &__list {
+        margin: 70px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+    }
+    &__list-item {
+        margin: 0 15px 0;
+    }
+    &__item-link {
+        font-family: "Open Sans";
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 4px;
+        color: #a8a8a8;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    &__address,
+    &__phone,
+    &__email {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #a8a8a8;
+        text-decoration: none;
+    }
+    &__address {
+        margin-top: 65px;
+    }
+    &__phone,
+    &__email {
+        margin-top: 20px;
+    }
+    .uppage {
+        margin-top: 60px;
+    }
+    &__subfooter {
+        margin-top: 60px;
+        height: 100px;
+        background-color: #2a2c2b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subfooter-text {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 12px;
+        color: #cccccc;
+    }
+}

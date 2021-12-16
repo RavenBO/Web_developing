@@ -1,0 +1,15 @@
+.promo {
+    position: relative;
+    min-height: 700px;
+    background: url('../img/main_bgr.png') center (center/cover) no-repeat;
+    &__title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        font-size: 20px;
+        background-color: #224354;
+        font-family: 'Raleway';
+        color: #fff;
+    }
+}

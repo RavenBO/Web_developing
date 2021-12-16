@@ -1,0 +1,72 @@
+.feed {
+    min-height: 896px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+        padding: 145px 0 160px 135px;
+    }
+    &__form {
+        max-width: 570px;
+        margin-top: 100px;
+        input {
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 3.70909px;
+            color: #242121;
+            width: 100%;
+            height: 38px;
+            border: none;
+            border-bottom: 2px solid #373a39;
+            outline: none;
+            text-transform: uppercase;
+            &::placeholder {
+                color: #b8b8b8;
+            }
+            &:nth-of-type(2) {
+                margin-top: 30px;
+            }
+        }
+        textarea {
+            margin-top: 55px;
+            width: 100%;
+            height: 155px;
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 3.70909px;
+            color: #242121;
+            text-transform: uppercase;
+            border: none;
+            border-bottom: 2px solid #373a39;
+            outline: none;
+            resize: none;
+            &::placeholder {
+                color: #b8b8b8;
+            }
+        }
+    }
+    &__button {
+        margin-top: 40px;
+        width: 230px;
+        height: 45px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 11px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #242121;
+        border: 2px solid #242121;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            color: #242121;
+        }
+    }
+    &__img {
+        width: 635px;
+    }
+}
